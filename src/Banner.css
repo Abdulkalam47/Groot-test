@@ -82,5 +82,90 @@
   padding-right: 150px;
   transition: opacity 0.5s ease;
 }
+/*Mobile Responsive*/
+@media (max-width: 1024px) {
+    .banner {
+      flex-direction: column; 
+      padding: 30px;
+      height: auto; 
+      margin-top: 50px;
+    }
+  
+    .banner-content {
+      width: 100%; 
+      margin-top: 0;
+      text-align: center; 
+    }
+  
+    .banner-content h1 {
+      font-size: 3.5rem; 
+    }
+  
+    .banner-content p {
+      font-size: 1rem;
+      margin-bottom: 50px;
+      line-height: 1.4;
+    }
+  
+    .dog-image {
+      width: 70%; 
+      margin-top: 20px;
+      padding-right: 0;
+    }
+  
+    .learn-more,
+    .learn-more1 {
+      margin-top: 20px; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .banner {
+      padding: 20px;
+      gap: 10px;
+    }
+  
+    .banner-content h1 {
+      font-size: 2.5rem; 
+    }
+  
+    .banner-content p {
+      font-size: 0.9rem;
+    }
+  
+    .dog-image {
+      width: 50%; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .banner {
+      flex-direction: column; 
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .banner-content h1 {
+      font-size: 2rem; 
+    }
+  
+    .banner-content p {
+      font-size: 0.8rem;
+      margin-bottom: 30px;
+    }
+  
+    .dog-image {
+      width: 40%; 
+      margin-top: 20px;
+    }
+  
+    .learn-more,
+    .learn-more1 {
+      width: 100%; 
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+  }
+
 
 
