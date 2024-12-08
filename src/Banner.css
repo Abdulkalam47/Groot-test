@@ -1,0 +1,86 @@
+
+.banner {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  height: 100vh;
+  color: white;
+  gap: 20px; 
+  transition: background-image 0.5s ease;
+  margin-top: 100px;
+}
+
+
+.banner-content {
+  width: 50%; 
+  text-align: left;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  margin-top: -230px;
+}
+
+.banner-content h2 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+.banner-content h1 {
+  font-size: 4.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.banner-content p {
+  font-size: 1.2rem;
+  margin-bottom: 200px;
+  line-height: 1.6;
+}
+
+.learn-more1{
+    background-color: #ffffff00;
+    color: rgb(255, 255, 255);
+    border: 2px solid #ffffff;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    width: 140px;
+    margin-top: 40px;
+  }
+  
+  .learn-more1:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+.learn-more {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+  width: 140px;
+  margin-top: -20px;
+}
+
+.learn-more:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+.dog-image {
+  width: fit-content; 
+  padding-right: 150px;
+  transition: opacity 0.5s ease;
+}
+
+
